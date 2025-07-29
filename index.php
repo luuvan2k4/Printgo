@@ -19,7 +19,7 @@
 <body>
 	<div class="main_content">
 		<?php include("header.php") ?>
-		<?php include("banner.php") ?>
+		<?php include("thietKe.php") ?>
 		<?php include("footer.php") ?>
 	</div>
 	
