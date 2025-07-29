@@ -1056,7 +1056,7 @@ b {
 .nhap-email-footer input:hover {
   background-color: #2C3C4A;
   border-radius: 50px !important;
-  border: none ;
+  border: none;
   outline: none;
 }
 
@@ -1081,9 +1081,9 @@ b {
   transform: translateY(-50%);
   padding: 6px 12px;
   text-transform: uppercase;
-    font-weight: 700;
+  font-weight: 700;
   font-size: 15px;
-  border: none ;
+  border: none;
   outline: none;
 }
 
@@ -1095,4 +1095,142 @@ b {
 
 .nhap-email-footer {
   height: 48px;
+}
+
+.footer-content-3 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin-top: 94px;
+  font-size: 14px;
+}
+
+.footer-content-2-gray {
+  color: #A1ACB6;
+
+  font-weight: 500;
+}
+
+.footer-content-2-green {
+  color: #3DBEB3;
+
+  font-weight: 500;
+}
+
+.footer-content-2-white {
+  color: white;
+
+  font-weight: 500;
+}
+
+.footer-content-2-yellow {
+  color: #FEDB4F;
+
+  font-weight: 500;
+}
+
+.footer-content-3 .bold-footer {
+  font-size: 14px !important;
+  padding-bottom: 10px !important;
+  font-weight: 700;
+}
+
+.footer-content-3 a div {
+  padding-top: 10px;
+}
+
+.footer-content-3-doi-tac {
+  padding-top: 5px;
+}
+
+.theo-doi img {
+  padding: 4px;
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+
+}
+
+.footer-content-between-3 {
+  border-right: 0.8px solid #2B3540;
+}
+
+.footer-bottom {
+  border-top: 0.8px solid #2B3540;
+}
+
+.footer-bottom-content {
+  display: grid;
+  grid-template-columns: 75% 25%;
+
+}
+
+.footer-bottom-content-green {
+  color: #3DBEB3;
+  font-size: 13px;
+  font-weight: 500;
+
+}
+
+.footer-bottom-content-white {
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+
+}
+
+.footer-bottom-content-yellow {
+  color: #FEDB4F;
+  font-size: 13px;
+  font-weight: 500;
+
+}
+.footer-bottom-content-padding{
+  margin-bottom: 13px;
+}
+.footer-bottom-content-2{
+  margin-top: 10px;
+}
+.logoDMCA-footer{
+  
+  margin-top: 30px;
+  
+}
+.footer-bottom-content-2{
+  text-align: center;
+}
+.footer-bottom-content-1{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.fixed-icon {
+    position: fixed;
+    bottom: 20px;     /* cách đáy màn hình */
+    right: 20px;      /* cách phải màn hình */
+    display: flex;
+    flex-direction: column;  /* xếp theo cột */
+    gap: 10px;        /* khoảng cách giữa các icon */
+    z-index: 999;
+    text-align: center;
+}
+.background-rocket{
+  border-radius: 90%;
+  background-image: url('/public/img/backgroundRocket.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: #FEDB4F 4px solid;
+  position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: lightgray;
+    overflow: visible; 
+    
+}
+
+
+.rocket {
+    position: absolute;
+    top: -30px;    
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
