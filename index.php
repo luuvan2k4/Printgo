@@ -19,7 +19,7 @@
 <body>
 	<div class="main_content">
 		<?php include("header.php") ?>
-		<?php include("dichVu.php") ?>
+		<?php include("linhVucMyPham.php") ?>
 		<?php include("footer.php") ?>
 	</div>
 	
