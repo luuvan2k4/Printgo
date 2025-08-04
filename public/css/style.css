@@ -462,6 +462,11 @@ b {
 
 }
 
+.ocop-product:hover .soLuongToiThieu span {
+  color: white;
+
+}
+
 .danh-gia-product {
   display: grid;
   grid-template-columns: 42% 25% 33%;
@@ -1469,18 +1474,24 @@ b {
   font-style: normal;
   width: 149px;
 }
-.dich-vu-item-img-text:hover .dich-vu-item-text span{
+
+.dich-vu-item-img-text:hover .dich-vu-item-text span {
   color: #2DBEB3;
 }
-.dich-vu-item-img-text:hover{
-  
-  box-shadow: 
-  -6px -6px 12px hsla(210, 8%, 62%, 0.2),  /* trái + trên */
-   6px -6px 12px hsla(210, 8%, 62%, 0.2),  /* phải + trên */
-   0px -6px 12px hsla(210, 8%, 62%, 0.2);  /* chính giữa trên */
+
+.dich-vu-item-img-text:hover {
+
+  box-shadow:
+    -6px -6px 12px hsla(210, 8%, 62%, 0.2),
+    /* trái + trên */
+    6px -6px 12px hsla(210, 8%, 62%, 0.2),
+    /* phải + trên */
+    0px -6px 12px hsla(210, 8%, 62%, 0.2);
+  /* chính giữa trên */
 
 }
-.bannerMyPham{
+
+.bannerMyPham {
   margin-top: 50px;
   margin-bottom: 60px;
 }
@@ -1514,8 +1525,10 @@ b {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* căn giữa theo chiều dọc */
-  height: 100%; /* rất quan trọng để lấy chiều cao cha */
+  justify-content: center;
+  /* căn giữa theo chiều dọc */
+  height: 100%;
+  /* rất quan trọng để lấy chiều cao cha */
 }
 
 .tab-item-my-pham img {
@@ -1525,44 +1538,115 @@ b {
   padding-top: 20px;
 
 }
-.tab-item-my-pham p{
+
+.tab-item-my-pham p {
   margin-top: 20px;
   font-weight: 500;
 }
+
 .tab-item-my-pham.active {
-    color: #2DBEB3;
-    box-shadow: 0 0 10px rgb(170, 170, 170);
+  color: #2DBEB3;
+  box-shadow: 0 0 10px rgb(170, 170, 170);
 }
 
 .position-relative-my-pham {
   position: relative;
 
   margin: 0 auto;
-  
+
 }
-.soLuongToiThieu span{
+
+.soLuongToiThieu span {
   color: red;
 }
 
-.cap-nhat-xu-huong-thiet-ke{
+.cap-nhat-xu-huong-thiet-ke {
   font-size: 14px;
-      font-weight: 500;
-    font-style: normal;
-        margin-bottom: 5px;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 5px;
 }
-.bai-viet-lien-quan-cap-nhat-xu-huong-thiet-ke{
+
+.bai-viet-lien-quan-cap-nhat-xu-huong-thiet-ke {
   font-size: 24px;
-    font-weight: 600;margin-bottom: .5em;
+  font-weight: 600;
+  margin-bottom: .5em;
 }
-.cau-hoi-thuong-gap-hoi-dap{
+
+.cau-hoi-thuong-gap-hoi-dap {
   display: flex;
   justify-content: space-between;
 }
-.linh-vuc-tin-tuc{
+
+.linh-vuc-tin-tuc {
   margin-top: 100px;
 }
-.cau-hoi-thuong-gap-hoi-dap .col-4{
+
+.cau-hoi-thuong-gap-hoi-dap .col-4 {
   text-align: end;
+
+}
+
+.heart-eye svg {
+
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+
+  align-items: center;
+
+
+}
+
+.heart-eye span {
+  display: inline;
+  align-items: center;
+}
+
+.heart-eye {
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.sanPhamMyPham{
   
 }
 
+.sanPhamMyPham h2 {
+      font-size: 25px;
+    font-weight: 700 !important;
+  background: url(/public/img/nenSanPhamMyPham.png) no-repeat;
+    margin-bottom: none !important;
+    margin-top: 25px;
+    background-size: 21% 70%;
+    height: 41px;
+}
+.sanPhamMyPham span {
+        padding-left: 0px;
+        text-transform: uppercase;
+    color: #e8482c;
+    font-weight: 700;
+}
+.sanPhamInAnTrongLinhVucMyPham{
+  margin-bottom: 70px;
+}
+.sanPhamTitle{
+  margin-top: 70px;
+}
+.sanPhamTitle h2 {
+      font-size: 25px;
+    font-weight: 700 !important;
+  background: url(/public/img/backgroundGoi.png) no-repeat;
+    margin-bottom: none !important;
+    margin-top: 25px;
+    background-size: 9% 70%;
+    height: 41px;
+}
+.sanPhamTitle span {
+        padding-left: 0px;
+        text-transform: uppercase;
+    
+    font-weight: 700;
+}
