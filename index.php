@@ -19,7 +19,7 @@
 <body>
 	<div class="main_content">
 		<?php include("header.php") ?>
-		<?php include("linhVucLeTet.php") ?>
+		<?php include("inNongSanOCOP.php") ?>
 		<?php include("footer.php") ?>
 	</div>
 	
